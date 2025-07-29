@@ -115,7 +115,7 @@
 
   <Target Name="BuildLogin" DependsOnTargets="RestoreLogin">
     <Message Importance="high" Text="Executing Login NPM build script..." />
-    <Exec Command="npm run build" WorkingDirectory="$(LoginProjectDirectory)" />
+<!--    <Exec Command="npm run build" WorkingDirectory="$(LoginProjectDirectory)" />-->
     <ItemGroup>
       <_LoginAssetsBuildOutput Include="$(LoginAssetsPath)\**" />
     </ItemGroup>
