@@ -11,7 +11,7 @@
 @inject IPackageManifestService PackageManifestService
 @inject IJsonSerializer JsonSerializer
 @inject IProfilerHtml ProfilerHtml
-@inject IOptions<GlobalSettings> GlobalSettings
+@* @inject IOptions<GlobalSettings> GlobalSettings *@
 
 @{
     bool.TryParse(Context.Request.Query["umbDebug"], out var isDebug);
@@ -21,7 +21,7 @@
 }
 
 <!DOCTYPE html>
-<html lang="@GlobalSettings.Value.DefaultUILanguage">
+@* <html lang="@GlobalSettings.Value.DefaultUILanguage"> *@
 
 <head>
     <meta charset="UTF-8" />
