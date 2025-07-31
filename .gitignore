@@ -2,6 +2,8 @@
 # Umbraco CMS .gitignore
 #
 
+.refactor-mcp/
+
 # Common files
 *.obj
 *.pdb
