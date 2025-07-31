@@ -3,6 +3,8 @@
 #
 
 .refactor-mcp/
+.serena/
+.claude/
 
 # Common files
 *.obj
