@@ -4,7 +4,12 @@
       "mcp__jetbrains-wsl__find_files_by_name_substring",
       "mcp__jetbrains-wsl__get_file_text_by_path",
       "mcp__jetbrains-wsl__replace_specific_text",
-      "mcp__jetbrains-wsl__search_in_files_content"
+      "mcp__jetbrains-wsl__search_in_files_content",
+      "mcp__serena__initial_instructions",
+      "mcp__serena__check_onboarding_performed",
+      "mcp__serena__find_symbol",
+      "mcp__serena__find_referencing_symbols",
+      "mcp__serena__search_for_pattern"
     ],
     "deny": []
   }
